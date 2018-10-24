@@ -1,0 +1,6 @@
+LNMP 筆記
+
+安裝環境：
+Web:Nginx
+code:PHP 7
+sql DB:MariaDB
