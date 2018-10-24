@@ -11,3 +11,6 @@ sql DB:MariaDB
 sudo apt-get update
 sudo apt-get upgrade
 
+Install Nginx Server 安裝Nginx伺服器
+sudo apt-get install Nginx
+
