@@ -17,3 +17,9 @@ sudo apt-get upgrade
 Install Nginx Server 安裝Nginx伺服器
 sudo apt-get install Nginx
 
+install mariadb (Opendata SQL Server)
+sudo apt-get install mariadb
+
+Set mariadb secure Option
+sudo mysql_secure_installation
+
