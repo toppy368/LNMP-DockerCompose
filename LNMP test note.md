@@ -26,6 +26,7 @@ sql DB:MariaDB
 #### Test mysql login 測試mysql登入
 	sudo mysql -u root -p
 
-### Install php and php connect to mysql set. (php-fpm) 安裝 php 並且將 php連接到 mysql (php-fpm)：
+### Install php and php connect to mysql set. (php-fpm)  
+### 安裝 php 並且將 php連接到 mysql (php-fpm)：  
 	sudo apt-get install php-fpm php-mysql
 	
