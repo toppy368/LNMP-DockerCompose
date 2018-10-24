@@ -1,4 +1,4 @@
-LNMP 筆記
+LNMP 安裝筆記
 
 安裝與運作環境：
 Web Server:Nginx
