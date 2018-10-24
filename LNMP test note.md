@@ -23,3 +23,6 @@ sql DB:MariaDB
 ### Set mariadb secure Option 安裝 mariadb 安全選項：
 	sudo mysql_secure_installation
 
+### Install php and php to mysql connect (php-fpm) 安裝 php 並且將 php連接到 mysql (php-fpm)：
+	sudo apt-get install php-fpm php-mysql
+	
