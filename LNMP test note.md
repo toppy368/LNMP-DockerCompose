@@ -20,9 +20,12 @@ sql DB:MariaDB
 ### Install mariadb (Opendata SQL Server) 安裝 mariadb (開源的SQL伺服器)：
 	sudo apt-get install mariadb
 
-### Set mariadb secure Option 安裝 mariadb 安全選項：
+#### Set mariadb secure Option 安裝 mariadb 安全選項：
 	sudo mysql_secure_installation
 
-### Install php and php to mysql connect (php-fpm) 安裝 php 並且將 php連接到 mysql (php-fpm)：
+#### Test mysql login 測試mysql登入
+	sudo mysql -u root -p
+
+### Install php and php connect to mysql set. (php-fpm) 安裝 php 並且將 php連接到 mysql (php-fpm)：
 	sudo apt-get install php-fpm php-mysql
 	
