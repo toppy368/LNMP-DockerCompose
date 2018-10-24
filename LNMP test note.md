@@ -1,9 +1,9 @@
 ## LNMP 安裝筆記
 
 ### 安裝與運作環境：
-Web Server:Nginx
-code:PHP 7
-sql DB:MariaDB
+Web Server:Nginx  
+code:PHP 7  
+sql DB:MariaDB  
 
 注意：以下請開啟中端機輸入指令，一行一行執行
 
