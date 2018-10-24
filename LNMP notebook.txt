@@ -1,7 +1,7 @@
 LNMP 筆記
 
 安裝與運作環境：
-Web:Nginx
+Web Server:Nginx
 code:PHP 7
 sql DB:MariaDB
 
@@ -10,3 +10,4 @@ sql DB:MariaDB
 前置作業：
 sudo apt-get update
 sudo apt-get upgrade
+
