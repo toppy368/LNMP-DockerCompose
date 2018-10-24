@@ -1,6 +1,6 @@
 LNMP 筆記
 
-安裝環境：
+安裝與運作環境：
 Web:Nginx
 code:PHP 7
 sql DB:MariaDB
