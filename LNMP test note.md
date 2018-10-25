@@ -28,7 +28,7 @@ sql DB:MariaDB
 
 如果成功，將顯示以下畫面：
 
-	## Welcome to nginx!
+	Welcome to nginx!
 	
 	If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
 
