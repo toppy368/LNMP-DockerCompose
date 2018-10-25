@@ -65,12 +65,15 @@ sql DB:MariaDB
 如果要離開請輸入 **exit** 。  
 
 	exit
+	
+### Install and set up PHP. 安裝並設定 PHP (PHP-fpm)
+	
+#### Install php and php connect to mysql set.  
+#### 安裝 php 並且將 php 連接到 mysql ：  
 
-### Install php (php-fpm) and php connect to mysql set.   
-### 安裝 php (php-fpm) 並且將 php 連接到 mysql ：  
 	sudo apt-get install php-fpm php-mysql
 	
-### 查詢PHP版本號
+#### 查詢PHP版本號
 為了查詢php.ini的路徑，需要查詢版本號，請輸入以下指令：  
 
 	php-cgi –version
