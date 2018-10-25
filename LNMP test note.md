@@ -25,6 +25,18 @@ sql DB:MariaDB
 	http://[host ip]
 
 **注意：**主機未簽署與申請 https 證書，https將無法運作，請將網址手動改成 http，以免無法開啟網站。
+
+如果成功，將顯示以下畫面：
+
+	## Welcome to nginx!
+	
+	If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
+
+	For online documentation and support please refer to nginx.org.
+	Commercial support is available at nginx.com.
+	
+	Thank you for using nginx.
+
 	
 ### Install mariadb (Opendata SQL Server) 安裝 mariadb (開源的SQL伺服器)：
 	sudo apt-get install mariadb
