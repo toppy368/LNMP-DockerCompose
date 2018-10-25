@@ -125,5 +125,4 @@ VIM 編輯提示：
 ```
 
 存檔關閉文件後，請重新啟動php程式
-
-	
+	sudo systemctl restart php7.2-fpm
