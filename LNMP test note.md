@@ -214,4 +214,17 @@ VIM 編輯提示：
 	/var/www/html
 
 #### 使用VIM新增 phpinfo.php
+
 	sudo vi /var/www/html/info.php
+
+#### 請新增以下PHP程式碼，將列出所有PHP版本細部資訊  
+
+	<?php
+	phpinfo();
+	?>
+
+#### 開啟以下網頁並瀏覽info.php頁面
+
+	http://[Your host ip or Domain Name]/info.php
+
+如果看到以下畫面就完成了
