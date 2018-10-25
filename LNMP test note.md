@@ -20,7 +20,8 @@ sql DB:MariaDB
 	sudo apt-get install Nginx
 
 #### Test Nginx on Work 測試 Nginx 正常運作：
-請於網址欄輸入以下訊息：  
+請於網址欄輸入以下訊息： 
+ 
 	http://localhost
 
 ### Install mariadb (Opendata SQL Server) 安裝 mariadb (開源的SQL伺服器)：
