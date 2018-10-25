@@ -130,9 +130,11 @@ VIM 編輯提示：
 
 ### 設定Nginx
 
+#### 修改Nginx設定檔  
+
 	sudo vi /etc/nginx/sites-available/default
 
-請找到這一行，這禮將指定哪些index類型為網站的首頁  
+#### 修改此行，新增 index.php 為預設首頁  
 
 	index index.php index.html index.htm index.nginx-debian.html;
 
@@ -140,7 +142,7 @@ VIM 編輯提示：
 
 	index.php
 
-請找到這一行，這一行會指定URL的IP位置或網域  
+#### 修改請找到這一行，這一行會指定URL的IP位置或網域  
 
 	server_name _;
 
