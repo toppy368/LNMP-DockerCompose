@@ -101,7 +101,7 @@ sql DB:MariaDB
 2. 本範例使用 VIM 作為編輯器(作者習慣)，使用者也可採用 nano 等編輯器進行此操作。  
 
 	
-	# VIM可輸入/搜尋關鍵字(字串)
+	#VIM可輸入/搜尋關鍵字(字串)
 	/cgi.fix_pathinfo
 
 
