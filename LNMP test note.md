@@ -143,3 +143,5 @@ sudo vi /etc/nginx/sites-available/default
 
 請改成以下結果
 	server_name [Your host ip or Domain Name];
+
+[] 內的內容請用主機的IP或是網域名稱取代，如果已申請網域，請在DNS上新增A記錄並填上主機的IP，設定完畢後，任何使用者都可以使用網域名稱連接本伺服器的網站。
