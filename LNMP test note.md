@@ -145,3 +145,45 @@ sudo vi /etc/nginx/sites-available/default
 	server_name [Your host ip or Domain Name];
 
 [] 內的內容請用主機的IP或是網域名稱取代，如果已申請網域，請在DNS上新增A記錄並填上主機的IP，設定完畢後，任何使用者都可以使用網域名稱連接本伺服器的網站。
+
+
+#### 修改 NGINX 連接到 php-fpm 的方法。
+此文件的最下方有個被註解包住的 pass PHP scripts to FastCGI server 設定值，瀏覽 [PHP FastCGI Example - Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/) 可獲得詳細說明，從文件中的Connecting NGINX to PHP FPM段落可得知此段落可以設定 NGINX 連接到 PHP-fpm 的方法。
+
+文件的最下方將看到以下段落：
+
+	# pass PHP scripts to FastCGI server
+    #
+    #location ~ \.php$ {
+    #       include snippets/fastcgi-php.conf;
+    #
+    #       # With php-fpm (or other unix sockets):
+    #       fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+    #       # With php-cgi (or other tcp sockets):
+    #       fastcgi_pass 127.0.0.1:9000;
+    #}
+
+
+應刪除註解並改成以下內容(說明註解不刪除，讓大家查文件)：
+
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		
+		# With php-fpm (or other unix sockets):
+		fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+    }
+	
+
+，如果此Nginx伺服器的根目錄與Apache跟目錄相同時，拒絕存取 .hatccess 檔
+
+	# deny access to .htaccess files, if Apache's document root
+    # concurs with nginx's one
+    #
+    #location ~ /\.ht {
+    #       deny all;
+    #}
+
+請將此段落取消註解：
+	location ~ /\.ht {
+           deny all;
+    }
