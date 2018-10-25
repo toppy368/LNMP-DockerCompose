@@ -17,7 +17,7 @@ sql DB:MariaDB
 	sudo apt-get upgrade
 
 ### Install Nginx Server 安裝Nginx伺服器：
-	sudo apt-get install Nginx
+	sudo apt-get install nginx
 
 #### Test Nginx on Work 測試 Nginx 正常運作：
 請於網址欄輸入以下訊息： 
