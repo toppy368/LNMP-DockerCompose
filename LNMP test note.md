@@ -71,11 +71,15 @@ sql DB:MariaDB
 	sudo apt-get install php-fpm php-mysql
 	
 #### 查詢PHP版本號
-前面的指令沒指定PHP版本，預設會安裝最新穩定版本的PHP， php-fpm 本身為 php-cgi 版本，因此請下達以下指令查詢版號：  
+為了查詢php.ini的路徑，需要查詢版本號，請輸入以下指令：  
+
 	php-cgi –version
 
-以下為查詢結果：
+以下為查詢結果：  
+
 	Command 'php-cgi' not found, but can be installed with:
 
 	apt install php7.2-cgi
 	Please ask your administrator.
+
+本文目前安裝的版本為 PHP 7.2 版本，含CGI功能(某些PHP框架會用到)，版本號會影響 php.ini 位置，請將版本號抄下來。  
