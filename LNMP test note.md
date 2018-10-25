@@ -206,3 +206,11 @@ VIM 編輯提示：
 
 	sudo systemctl reload nginx
 
+
+### 新增 info.php 測試PHP是否順利完成安裝
+
+網頁伺服器根目錄如下：(在Ubunut下，Nginx與Apache都是同一個)
+	/var/www/html
+
+#### 使用VIM新增 phpinfo.php
+	sudo vi /var/www/html/info.php
