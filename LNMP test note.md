@@ -88,3 +88,13 @@ sql DB:MariaDB
 本文目前安裝的版本為 PHP 7.2 版本，含CGI功能(某些PHP框架會用到)，版本號會影響 php.ini 位置，請將版本號抄下來。  
 
 **注意：** 若操作時的PHP版本不是 7.2 版，則請依照實際內容為主。
+
+
+#### Modify the php.ini settings. 修改 php.ini 設定。
+輸入以下語法以VIM開啟php.ini檔案：
+
+	sudo vi /etc/php/7.2/fpm/php.ini
+
+**注意：**
+1. php後方的7.2為版本號，如果操作的PHP並非7.2，請改成實際的版本號以符合實際路徑。  
+2. 本範例使用VIM作為編集器(作者習慣)，使用者也可採用nano編集器進行此操作。  
