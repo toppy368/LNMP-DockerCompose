@@ -70,3 +70,12 @@ sql DB:MariaDB
 ### 安裝 php (php-fpm) 並且將 php 連接到 mysql ：  
 	sudo apt-get install php-fpm php-mysql
 	
+#### 查詢PHP版本號
+前面的指令沒指定PHP版本，預設會安裝最新穩定版本的PHP， php-fpm 本身為 php-cgi 版本，因此請下達以下指令查詢版號：  
+	php-cgi –version
+
+以下為查詢結果：
+	Command 'php-cgi' not found, but can be installed with:
+
+	apt install php7.2-cgi
+	Please ask your administrator.
