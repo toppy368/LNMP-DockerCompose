@@ -41,6 +41,8 @@ sql DB:MariaDB
 ### Install mariadb (Opendata SQL Server) 安裝 mariadb (開源的SQL伺服器)：
 	sudo apt-get install mariadb-server
 
+**注意：** 安裝過程並沒有提示帳號密碼，也就是說此時資料庫的 root 帳號不需密碼就能登入，下一步執行安全套件將解決此問題。
+	
 #### Set mariadb secure Option 安裝 mariadb 安全選項：
 	sudo mysql_secure_installation
 
