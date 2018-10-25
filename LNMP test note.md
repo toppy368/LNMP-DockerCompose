@@ -62,6 +62,7 @@ sql DB:MariaDB
 
 此畫面中你可以使用SQL語法進行任何的操作(請自行搜尋SQL語法並在此自學)，如果要架設 WordPress 請先建立空的資料庫 (Database) 。  
 如果要離開請輸入 **exit** 。  
+
 	exit
 
 ### Install php (php-fpm) and php connect to mysql set.   
