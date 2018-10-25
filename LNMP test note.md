@@ -127,3 +127,19 @@ VIM 編輯提示：
 存檔關閉文件後，請重新啟動php程式  
 
 	sudo systemctl restart php7.2-fpm
+
+### 設定Nginx
+
+sudo vi /etc/nginx/sites-available/default
+
+請找到這一行，這禮將指定哪些index類型為網站的首頁
+	index index.php index.html index.htm index.nginx-debian.html;
+
+請在裡頭新增 index.php
+	index.php
+
+請找到這一行，這一行會指定URL的IP位置或網域
+	server_name _;
+
+請改成以下結果
+	server_name [Your host ip or Domain Name];
