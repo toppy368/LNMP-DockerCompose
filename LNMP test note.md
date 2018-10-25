@@ -197,3 +197,12 @@ VIM 編輯提示：
     }
 
 最後文件存檔後離開
+
+#### 測試設定檔語法正確並重新啟動Nginx伺服器
+
+	sudo nginx -t
+	
+重啟Nginx伺服器
+
+	sudo systemctl reload nginx
+
