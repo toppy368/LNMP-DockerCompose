@@ -142,7 +142,7 @@ VIM 編輯提示：
 
 	index.php
 
-#### 修改請找到這一行，這一行會指定URL的IP位置或網域  
+#### 指定URL的IP位置或網域  
 
 	server_name _;
 
@@ -153,8 +153,8 @@ VIM 編輯提示：
 [] 內的內容請用主機的IP或是網域名稱取代，如果已申請網域，請在DNS上新增A記錄並填上主機的IP，設定完畢後，任何使用者都可以使用網域名稱連接本伺服器的網站。
 
 
-#### 修改 NGINX 連接到 php-fpm 的方法。
-此文件的最下方有個被註解包住的 pass PHP scripts to FastCGI server 設定值，瀏覽 [PHP FastCGI Example - Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/) 可獲得詳細說明，從文件中的Connecting NGINX to PHP FPM段落可得知此段落可以設定 NGINX 連接到 PHP-fpm 的方法。
+#### 設定 NGINX 連接到 php-fpm 的方法。
+此文件的最下方有個被註解包住的 **pass PHP scripts to FastCGI server** 設定值，瀏覽 [PHP FastCGI Example - Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/) 可獲得詳細說明，從文件中的 Connecting NGINX to PHP FPM 段落可得知此段落可以設定 NGINX 連接到 PHP-fpm 的方法。
 
 文件的最下方將看到以下段落：
 
@@ -180,7 +180,8 @@ VIM 編輯提示：
     }
 	
 
-此段落以說明此設定的用意：如果此Nginx伺服器的根目錄與Apache跟目錄相同時，拒絕存取 .hatccess 檔
+#### 設定讓Nginx取消存取.hatccess  
+此段落已說明此設定的用意：如果此Nginx伺服器的根目錄與Apache跟目錄相同時，拒絕存取 .hatccess 檔
 
 	# deny access to .htaccess files, if Apache's document root
     # concurs with nginx's one
