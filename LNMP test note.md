@@ -1,6 +1,7 @@
 ## LNMP 安裝筆記
 
 ### 安裝與運作環境：
+OS:Ububnt 18.04 or 14.04
 Web Server:Nginx  
 code:PHP 7  
 sql DB:MariaDB  
