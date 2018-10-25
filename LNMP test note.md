@@ -39,7 +39,7 @@ sql DB:MariaDB
 
 	
 ### Install mariadb (Opendata SQL Server) 安裝 mariadb (開源的SQL伺服器)：
-	sudo apt-get install mariadb
+	sudo apt-get install mariadb-server
 
 #### Set mariadb secure Option 安裝 mariadb 安全選項：
 	sudo mysql_secure_installation
