@@ -7,10 +7,11 @@ sql DB:MariaDB
 
 注意：以下請開啟中端機輸入指令，一行一行執行
 
-### 前置作業 登入：
+### 前置作業 
+#### 登入：
 	ssh [root id@host ip]
 
-### 前置作業 更新：
+#### 更新：
 	sudo apt-get update
 	sudo apt-get upgrade
 
