@@ -90,6 +90,7 @@ sql DB:MariaDB
 **注意：** 若操作時的PHP版本不是 7.2 版，則請依照實際內容為主。
 
 
+
 #### Modify the php.ini settings. 修改 php.ini 設定。
 輸入以下語法以VIM開啟php.ini檔案：
 
