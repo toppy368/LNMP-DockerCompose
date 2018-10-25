@@ -130,18 +130,22 @@ VIM 編輯提示：
 
 ### 設定Nginx
 
-sudo vi /etc/nginx/sites-available/default
+	sudo vi /etc/nginx/sites-available/default
 
-請找到這一行，這禮將指定哪些index類型為網站的首頁
+請找到這一行，這禮將指定哪些index類型為網站的首頁  
+
 	index index.php index.html index.htm index.nginx-debian.html;
 
-請在裡頭新增 index.php
+請在裡頭新增 index.php  
+
 	index.php
 
-請找到這一行，這一行會指定URL的IP位置或網域
+請找到這一行，這一行會指定URL的IP位置或網域  
+
 	server_name _;
 
-請改成以下結果
+請改成以下結果  
+
 	server_name [Your host ip or Domain Name];
 
 [] 內的內容請用主機的IP或是網域名稱取代，如果已申請網域，請在DNS上新增A記錄並填上主機的IP，設定完畢後，任何使用者都可以使用網域名稱連接本伺服器的網站。
@@ -174,7 +178,7 @@ sudo vi /etc/nginx/sites-available/default
     }
 	
 
-，如果此Nginx伺服器的根目錄與Apache跟目錄相同時，拒絕存取 .hatccess 檔
+此段落以說明此設定的用意：如果此Nginx伺服器的根目錄與Apache跟目錄相同時，拒絕存取 .hatccess 檔
 
 	# deny access to .htaccess files, if Apache's document root
     # concurs with nginx's one
@@ -184,6 +188,9 @@ sudo vi /etc/nginx/sites-available/default
     #}
 
 請將此段落取消註解：
+
 	location ~ /\.ht {
            deny all;
     }
+
+最後文件存檔後離開
