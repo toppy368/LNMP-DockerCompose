@@ -46,6 +46,22 @@ sql DB:MariaDB
 
 #### Test mysql login 測試mysql登入
 	sudo mysql -u root -p
+	Enter password: [root password]
+
+如果成功將顯示以下畫面，可執行任意的SQL code
+	
+	Welcome to the MariaDB monitor.  Commands end with ; or \g.
+	Your MariaDB connection id is 51
+	Server version: 10.1.34-MariaDB-0ubuntu0.18.04.1 Ubuntu 18.04
+	
+	Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+	
+	Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+	
+	MariaDB [(none)]> 
+
+此畫面中你可以使用SQL語法進行任何的操作(請自行搜尋SQL語法並在此自學)，如果要架設 WordPress 請先建立空的資料庫 (Database) 。  
+如果要離開請輸入 **exit** 。  
 
 ### Install php (php-fpm) and php connect to mysql set.   
 ### 安裝 php (php-fpm) 並且將 php 連接到 mysql ：  
