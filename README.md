@@ -14,5 +14,11 @@ Microsoft Windows的安裝方法，因為相容性的問題所以有 Win 版本�
 
 ## Install image files and build containers. 安裝映像檔與建立容器
 
+### Nginx
+
+### MariaDB
+
+### PHP
+
 
 
