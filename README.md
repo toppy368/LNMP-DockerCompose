@@ -12,7 +12,7 @@ Windows 的安裝步驟(與注意事項)：[Install Docker for Windows | Docker 
 
 Microsoft Windows的安裝方法，因為相容性的問題所以有 Win 版本與功能限制，請參考官方文件的 What to know before you install 章節中，System Requirements:的列表，且需開啟 Hyper-V (這表示 Windows 必需要Pro版才可使用此功能)。
 
-## 前置步驟：安裝映像檔
+## Install image files and build containers. 安裝映像檔與建立容器
 
 
 
