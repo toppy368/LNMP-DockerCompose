@@ -2,9 +2,9 @@
 
 ## 前置步驟：安裝 Docker 
 
-Ubuntu 的安裝步驟：[Get Docker CE for Ubuntu | Docker Doc](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-Mac OS 的安裝步驟：[Install Docker for Mac | Docker Doc](https://docs.docker.com/docker-for-mac/install/)
-Windows 的安裝步驟(與注意事項)：[Install Docker for Windows | Docker Doc](https://docs.docker.com/docker-for-windows/install/)
+Ubuntu 的安裝步驟：[Get Docker CE for Ubuntu | Docker Doc](https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
+Mac OS 的安裝步驟：[Install Docker for Mac | Docker Doc](https://docs.docker.com/docker-for-mac/install/)  
+Windows 的安裝步驟(與注意事項)：[Install Docker for Windows | Docker Doc](https://docs.docker.com/docker-for-windows/install/)  
 
 上面前兩行的官方文件連結分別是Linux Ubuntu與MacOS的安裝方法，如果需要其他Linux的安裝步驟可查官網Get Docker的Linux標籤。
 
