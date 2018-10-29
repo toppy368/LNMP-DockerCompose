@@ -16,6 +16,13 @@ Microsoft Windows的安裝方法，因為相容性的問題所以有 Win 版本�
 
 ### Nginx
 
+	#Download nginx image(OFFICIAL REPOSITORY)
+	docker pull nginx
+	#build nginx containers
+	#Set port
+	docker run -p 80:8080 -d nginx
+
+
 ### MariaDB
 
 ### PHP
