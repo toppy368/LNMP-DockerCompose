@@ -1,4 +1,6 @@
 # LNMP-DockerCompose
+## 說明
+這是在 Docker 建立 Nginx、MariaDB、PHP 環境，適合建立 WordPress 與 Laravel 框架
 
 ## 前置步驟：安裝 Docker 
 
