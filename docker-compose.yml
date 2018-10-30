@@ -17,6 +17,7 @@ services:
        - db
      image: wordpress:latest
      volumes:
+       # Web default path.
        - wordpress:/var/www/html
      ports:
        # Set back to the default port.
