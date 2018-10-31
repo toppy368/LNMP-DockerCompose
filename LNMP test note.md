@@ -6,6 +6,9 @@ Web Server:Nginx
 code:PHP 7  
 sql DB:MariaDB  
 
+### 安裝流程簡介
+	檢查主機更新與設定 → 安裝與設定Nginx → 安裝SQL伺服器(MariaDB或Mysql都可，推薦前者) → 設定SQL密碼與其他安全選項 → 安裝並設定PHP-fpm → 完成
+
 **注意：** 以下請開啟中端機輸入指令，一行一行執行
 
 ### 前置作業 
