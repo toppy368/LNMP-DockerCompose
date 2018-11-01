@@ -24,6 +24,10 @@ Microsoft Windows的安裝方法，因為相容性的問題所以有 Win 版本�
 
 **注意：** docker run這行指令的 -p 8080:80 會把預設的80 PORT為8080，如果防火牆有阻擋只讓http協議通過80，有可能無法開啟網站，請手動將8080加入防火牆。
 
+	#測試指令(請取代前面的run)
+	docker run -p  80:80 nginx:latest
+
+
 ### MariaDB
 
 ### PHP
