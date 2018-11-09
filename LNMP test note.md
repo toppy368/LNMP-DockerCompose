@@ -89,10 +89,13 @@ sql DB:MariaDB
 
 	Command 'php-cgi' not found, but can be installed with:
 
-	apt install **php7.2-cgi**
+	apt install php7.2-cgi
 	Please ask your administrator.
 
-本文目前安裝的版本為 PHP 7.2 版本，含CGI功能(某些PHP框架會用到)，版本號會影響 php.ini 位置，請將版本號抄下來。  
+請留意此行：
+	apt install php7.2-cgi
+
+本文目前安裝的版本為 **PHP 7.2** 版本，含CGI功能(某些PHP框架會用到)，版本號會影響 php.ini 位置，請將版本號抄下來。  
 
 **注意：** 若操作時的PHP版本不是 7.2 版，則請依照實際內容為主。
 
