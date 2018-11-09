@@ -51,6 +51,8 @@ sql DB:MariaDB
 #### Set mariadb secure Option 安裝 mariadb 安全選項：
 	sudo mysql_secure_installation
 
+**注意：** 關於 mysql secure installation 安全套件的詳細說明與中文簡譯請參考本專案的 mysql_secure_installation.txt 文件。
+	
 #### Test mysql login 測試mysql登入
 	sudo mysql -u root -p
 	Enter password: [root password]
