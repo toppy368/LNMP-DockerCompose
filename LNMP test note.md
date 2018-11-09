@@ -184,9 +184,11 @@ VIM 編輯提示：
 		include snippets/fastcgi-php.conf;
 		
 		# With php-fpm (or other unix sockets):
+		#請將以下路徑的php7.0fpm.sock改成php7.2-fpm.sock(或您目前查到的版本號),以符合目前版號
 		fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
     }
-	
+
+**注意：** 範例設定檔的版本為 **PHP 7.0 fpm** 版，已經不合乎目前裝的最新版本 **PHP 7.2 fpm** ，請留意此行並修改成您目前安裝的版本號
 
 #### 設定讓Nginx取消存取.hatccess  
 此段落已說明此設定的用意：如果此Nginx伺服器的根目錄與Apache跟目錄相同時，拒絕存取 .hatccess 檔
